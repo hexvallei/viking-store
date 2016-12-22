@@ -90,3 +90,85 @@ body a:hover {
     text-align: center;
     letter-spacing: 0.2em;
 }
+
+
+/* CUSTOMER INSTRUCTIONS UNDER TAGLINE */
+
+.instructions-container {
+    background-color: white;
+    height: 53px;
+    border: 1px solid grey;
+}
+
+.instructions-container p {
+    color: black;
+    font: 700 20px/10px Arial, "sans-serif";
+    font-style: italic;
+    text-align: center;
+    padding-top: 2px;
+    
+}
+
+/* GOODS CONTAINERS */
+
+.goods-container {
+    border: 1px solid red;
+    height: 500px;
+}
+
+.goods {
+    border: 3px solid black;
+    float: left;
+    height: 515px;
+    width: 250px;
+    border-collapse: collapse;
+}
+
+.goods-top {
+    background-color: #2b2a29;
+}
+
+.goods-top p {
+    color: white;
+    font: 600 15px/10px Arial, "sans-serif";
+    letter-spacing: 0.1em;
+    word-spacing: 0.1em;
+    text-align: center;
+}
+
+.goods-middle img {
+    width: 249px;
+}
+
+.goods-bottom {
+    background-color: #2b2a29;
+    height: 50px;
+}
+
+
+.goods-bottom input {
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    background: #f48342;
+    text-align: center;
+    padding: 5px;
+    width: 149px;
+    margin-top: 9px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.goods-price {
+    float: right;
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.goods-price p {
+    font: 700 20px/3px "Arial", "sans-serif";
+    border-collapse: collapse;
+}
