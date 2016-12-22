@@ -1,3 +1,78 @@
 body {
     font-family: Arial, "Sans Serif";
+    color: #333;
+}
+
+div {
+    border: 1px dashed #bbb;
+}
+
+body a {
+    text-decoration: none;
+    color: #333;
+}
+
+body a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* TOP BAR */
+
+.top-bar-container {
+    background-color: #aaa;
+    height: 45px;
+}
+
+.top-bar-left {
+    float: left;
+    line-height: 25px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.top-bar-right {
+    float: right;
+    line-height: 25px;
+    padding-right: 50px;
+    padding-top: 5px;
+    
+}
+
+.top-bar-right img {
+    height: 30px;
+    border: 1px solid black;
+    padding: 2px 4px;
+    margin-right: 4px;
+    vertical-align: middle;
+}
+
+/* TOP HERO IMAGE */
+
+.top-image-container img {
+    width: 100%;
+}
+
+.top-image-container {
+    height: 665px;
+}
+
+.top-image-text {
+    position: relative;
+    top: -585px;
+    left: 220px;
+    width: 500px;
+}
+
+.top-image-text p {
+    font-size: 60px;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    background: #f48342;
+    padding: 0 10px;
+    text-align: center;
 }
