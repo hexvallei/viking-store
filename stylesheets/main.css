@@ -76,3 +76,17 @@ body a:hover {
     padding: 0 10px;
     text-align: center;
 }
+
+/* TAGLINE UNDER HERO IMAGE */
+
+.tagline-container {
+    background-color: #2b2a29;
+    height: 60px;
+}
+
+.tagline-container p {
+    color: white;
+    font: 700 24px/10px Arial, "sans-serif";
+    text-align: center;
+    letter-spacing: 0.2em;
+}
