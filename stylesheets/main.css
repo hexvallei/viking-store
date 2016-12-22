@@ -4,7 +4,7 @@ body {
 }
 
 div {
-    border: 1px dashed #bbb;
+    border: none;
 }
 
 body a {
@@ -59,7 +59,7 @@ body a:hover {
 }
 
 .top-image-container {
-    height: 665px;
+    height: 640px;
 }
 
 .top-image-text {
@@ -86,7 +86,7 @@ body a:hover {
 
 .tagline-container p {
     color: white;
-    font: 700 24px/10px Arial, "sans-serif";
+    font: 700 24px/60px Arial, "sans-serif";
     text-align: center;
     letter-spacing: 0.2em;
 }
@@ -112,20 +112,22 @@ body a:hover {
 /* GOODS CONTAINERS */
 
 .goods-container {
-    border: 1px solid red;
-    height: 500px;
+    border: 1px solid black;
+    height: 1000px;
 }
 
 .goods {
     border: 3px solid black;
     float: left;
-    height: 515px;
+    height: 310px;
     width: 250px;
     border-collapse: collapse;
+    margin: 70px 32px;
 }
 
 .goods-top {
     background-color: #2b2a29;
+    border: 1px solid #2b2a29;
 }
 
 .goods-top p {
@@ -136,8 +138,13 @@ body a:hover {
     text-align: center;
 }
 
+.goods-middle {
+    height: 220px;
+}
+
 .goods-middle img {
     width: 249px;
+    height: 180px;
 }
 
 .goods-bottom {
@@ -158,6 +165,7 @@ body a:hover {
     margin-top: 9px;
     margin-left: 50px;
     cursor: pointer;
+    border: 3px solid black;
 }
 
 .goods-price {
@@ -171,4 +179,14 @@ body a:hover {
 .goods-price p {
     font: 700 20px/3px "Arial", "sans-serif";
     border-collapse: collapse;
+}
+
+
+/*  FOOTER  */
+
+.footer {
+    background-color: #2b2a29;
+    border: 1px solid #2b2a29;
+    text-align: center;
+    color: #f48342;
 }
