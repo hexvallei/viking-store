@@ -190,4 +190,14 @@ body a:hover {
     border: 1px solid #2b2a29;
     text-align: center;
     color: #f48342;
+    font-size: 18px;
+}
+
+.phone img,
+.email img {
+    height: 30px;
+    float: left;
+    position: relative;
+    left:310px;
+    
 }
